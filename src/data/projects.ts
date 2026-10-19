@@ -16,27 +16,27 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Web de comidas',
+    title: 'Web gastronómica',
     description:
-      'Sitio gastronómico moderno diseñado para mostrar productos y facilitar los pedidos de los clientes.',
+      'Una web moderna para restaurantes, rotiserías y locales de comida. Presenta el menú, los precios, las promociones y facilita los pedidos por WhatsApp.',
     category: 'Gastronomía',
     technologies: ['React', 'TypeScript', 'Vite'],
     image: comidasImage,
   },
   {
     id: 2,
-    title: 'Landing Gasista',
+    title: 'Web para gasista',
     description:
-      'Landing profesional para servicios de gas, diseñada para transmitir confianza y facilitar el contacto.',
+      'Una página profesional para mostrar servicios, transmitir confianza y facilitar las consultas de potenciales clientes desde el celular.',
     category: 'Servicios',
     technologies: ['React', 'TypeScript', 'Vite'],
     image: gasistaImage,
   },
   {
     id: 3,
-    title: 'Sitio para odontóloga',
+    title: 'Web para consultorio',
     description:
-      'Diseño web para consultorio odontológico, con una presentación limpia y una experiencia clara para los pacientes.',
+      'Una propuesta de diseño para profesionales de la salud, con presentación de servicios, información del consultorio y vías de contacto.',
     category: 'Salud',
     technologies: ['React', 'TypeScript', 'Vite'],
     image: odontologaImage,
