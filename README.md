@@ -1,75 +1,59 @@
-# React + TypeScript + Vite
+# Jorge Bustos | Front-end Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal de desarrollo web, creado para presentar mis proyectos, habilidades y servicios de desarrollo frontend.
 
-Currently, two official plugins are available:
+## Sobre el proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este portfolio reúne proyectos web modernos, responsive y orientados a ofrecer una buena experiencia de usuario. Combino tecnologías actuales de desarrollo frontend con herramientas de inteligencia artificial para agilizar el proceso de creación.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Vite
+- CSS
+- Git y GitHub
+- Herramientas de inteligencia artificial
 
-## Expanding the ESLint configuration
+## Proyectos destacados
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Web de comidas:** sitio gastronómico con presentación de productos.
+- **Landing para gasista:** página profesional para servicios.
+- **Sitio para odontóloga:** propuesta web para un consultorio odontológico.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Ejecutar el proyecto localmente
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Requisitos: Node.js y npm instalados.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Clonar el repositorio:
 
-```
+   ```bash
+   git clone URL_DE_TU_REPOSITORIO
+   ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+2. Entrar en la carpeta del proyecto:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+   ```bash
+   cd mi-primer-proyecto
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+3. Instalar las dependencias:
 
-```
+   ```bash
+   npm install
+   ```
+
+4. Iniciar el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+## Contacto
+
+- Instagram: [@digital_web.studio](https://www.instagram.com/digital_web.studio/)
+- GitHub: [DeveloperCss](https://github.com/DeveloperCss)
+
+---
+
+Desarrollado por **Jorge Bustos**.
